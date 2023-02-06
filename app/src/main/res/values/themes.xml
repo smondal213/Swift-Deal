@@ -1,8 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="roundedCorners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">45dp</item>
+    </style>
     <!-- Base application theme. -->
     <style name="Theme.Botiga" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="android:soundEffectsEnabled">false</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+
+    <style name="Theme.Botiga.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Botiga.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Botiga.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
